@@ -69,6 +69,7 @@
 </ol>
 
 <strong>3 - Um pouco de prática </strong>
+
 <ol>
   <li>Projeto AngularBase</li>
   <ol>
@@ -103,6 +104,7 @@
 </ol>
 
 <strong>4 - Um pouco de teoria</strong>
+
 <ol>
   <li>Visão Geral</li>
   <li>Módulo (module)</li>
@@ -128,72 +130,101 @@
   </ol>
 </ol>
 
-ormulários 8
-5.1 Criando o projeto inicial 108
-5.2 Uso do ngControl . . 114
-5.3 Exibindo uma mensagem de erro . . 116
-5.4 Desabilitando o botão de submit do formulário 117
-5.5 Submit do formulário 118
-5.6 Controlando a visibilidade do formulário 9 16. Conexão com o servidor . 122
-6.1 Criando o projeto . . 122
-6.2 Uso da classe Http . 123
-6.3 Utilizando services . 128
-6.4 Organização do projeto28
-6.5 Model user 130
-6.6 Service user 131
-6.7 Alterando o componente AppComponent 2
-6.8 Enviando dados 3
-CONTEÚDO 17. Routes . 135
-7.1 Aplicação AngularRoutes 5
-7.2 Dividindo a aplicação em partes 137
-7.3 Criando a área onde os componentes serão carregados . 138
-7.4 Configurando o router38
-7.5 Criando links para as rotas 9
-7.6 Repassando parâmetros40 18. Exemplo Final - Servidor 142
-8.1 Criando o servidor RESTful . . 142
-8.2 O banco de dados MongoDB . . 142
-8.3 Criando o projeto . . 146
-8.4 Estrutura do projeto 147
-8.5 Configurando os modelos do MondoDB48
-8.6 Configurando o servidor Express . . 149
-8.7 Testando o servidor . 158
-8.8 Testando a api sem o Angular . 159 19. Exemplo Final - Cliente . 165
-9.1 Arquivos iniciais . . 165
-9.2 Preparando o Template base da aplicação 0
-9.3 Implementando o roteamento (Router)72
-9.Criando componentes . 172
-9.Configurando o @RouteConfig74
-9.3.3 Configurando o menu . 175
-9.3.4 Configurando o router-outlet 176
-9.4 Exibindo Posts 6
-9.5 Login 0
-9.6 Services . . 183
-9.6.1 LoginService 183
-9.6.2 UserService . 184
-9.6.3 HeadersService85
-9.7 Conectando no servidor 186
-9.8 Posts89
-9.8.1 PostService . 191
-9.9 Refatorando a tela inicial 192
-9.10 Conclusão . 196 20. Utilizando Sublime Text . 197
-CONTEÚDO
-10.1 Instalação . 197
-10.2 Adicionando suporte a linguagem TypeScript . 197
-10.3 Automatizando a build TypeScript . . 199 21. Publicando a aplicação em um servidor cloud . . 201
-11.1 Criando a conta na Digital Ocean . . 201
-11.2 Criando o droplet (servidor) . . 202
-11.3 Configurando o acesso SSH . . 204
-11.4 Criando o usuário . . 206
-11.5 Instalando o git 8
-11.6 Instalando Node . . 209
-11.7 Instalando o nginx . 209
-11.8 Instalando os módulos do node 211
-11.9 Recompilando os arquivos TypeScript 211
-11.10 Teste inicial 212
-11.11 Integração entre nginx e node . 212
-11.12 Algumas considerações sobre node+nginx . . 216
-11.13 Domínio . . 216
-11.14 Conclusão . 218
+<strong>5 - Formulários 8</strong>
+
+<ol>
+  <li>Criando o projeto inicial</li>
+  <li>Uso do ngControl</li>
+  <li>Exibindo uma mensagem de erro</li>
+  <li>Desabilitando o botão de submit do formulário</li>
+  <li>Submit do formulário</li>
+  <li>Controlando a visibilidade do formulário</li>
+</ol>
+
+<strong>6 - Conexão com o servidor</strong>
+
+<ol>
+  <li>Criando o projeto</li>
+  <li>Uso da classe Http</li>
+  <li>Utilizando services</li>
+  <li>Organização do projeto</li>
+  <li>Model user</li>
+  <li>Service user</li>
+  <li>Alterando o componente AppComponent</li>
+  <li>Enviando dados</li>
+</ol>
+
+<strong>7 - Routes</strong>
+
+<ol>
+  <li>Aplicação AngularRoutes</li>
+  <li>Dividindo a aplicação em partes</li>
+  <li>Criando a área onde os componentes serão carregados</li>
+  <li>Configurando o router</li>
+  <li>Criando links para as rotas</li>
+  <li>Repassando parâmetros</li>
+</ol>
+
+<strong>8 - Exemplo Final - Servidor</strong>
+
+<ol>
+  <li>Criando o servidor RESTful</li>
+  <li>O banco de dados MongoDB</li>
+  <li>Criando o projeto</li>
+  <li>Estrutura do projeto</li>
+  <li>Configurando os modelos do MondoDB</li>
+  <li>Configurando o servidor Express</li>
+  <li>Testando o servidor</li>
+  <li>Testando a api sem o Angular</li>
+</ol>
+
+<strong>9 - Exemplo Final - Cliente</strong>
+
+<ol>
+  <li>Arquivos iniciais</li>
+  <li>Preparando o Template base da aplicação</li>
+  <li>Implementando o roteamento (Router)</li>
+  <ol>
+    <li>Criando componentes</li>
+    <li>Configurando o @RouteConfig</li>
+    <li>Configurando o menu</li>
+    <li>Configurando o router-outlet</li>
+  </ol>
+  <li>Exibindo Posts</li>
+  <li>Login</li>
+  <li>Services</li>
+  <ol>
+    <li>LoginService</li>
+    <li>UserService</li>
+    <li>HeadersService</li>
+  </ol>
+  <li>Conectando no servidor</li>
+  <li>Posts</li>
+  <ol>
+    <li>PostService</li>
+  </ol>
+  <li>Refatorando a tela inicial</li>
+  <li>Conclusão</li>
+</ol>
+
+10. Utilizando Sublime Text 197
+    10.1 Instalação 197
+    10.2 Adicionando suporte a linguagem TypeScript 197
+    10.3 Automatizando a build TypeScript 199 21. Publicando a aplicação em um servidor cloud 201
+    11.1 Criando a conta na Digital Ocean 201
+    11.2 Criando o droplet (servidor) 202
+    11.3 Configurando o acesso SSH 204
+    11.4 Criando o usuário 206
+    11.5 Instalando o git 8
+    11.6 Instalando Node 209
+    11.7 Instalando o nginx 209
+    11.8 Instalando os módulos do node 211
+    11.9 Recompilando os arquivos TypeScript 211
+    11.10 Teste inicial 212
+    11.11 Integração entre nginx e node 212
+    11.12 Algumas considerações sobre node+nginx 216
+    11.13 Domínio 216
+    11.14 Conclusão 218
 
 <hr>
 
