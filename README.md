@@ -7,7 +7,7 @@
 
 <hr>
 
-<strong>Introdução</strong>
+<strong>1 - Introdução</strong>
 
 <ol>
   <li>Pré requisitos</li>
@@ -24,7 +24,8 @@
   <li>Código fonte</li>
 </ol>
 
-<strong>TypeScript1</strong>
+<strong>2 - TypeScript1</strong>
+
 <ol>
   <li>Instalando TypeScript</li>
   <li>Uso do Visual Studio Code</li>
@@ -67,121 +68,132 @@
   <li>Conclusão</li>
 </ol>
 
-3. Um pouco de prática . . . 49
-   3.1 Projeto AngularBase 49
-   3.1.1 Configurando o projeto 49
-   3.1.2 Erros ao instalar o Angular 2 49
-   3.1.3 Configurando a compilação do TypeScript . . . 50
-   3.1.4 Criando o primeiro componente Angular 2 . . . 52
-   3.1.5 Criando o bootstrap . . 53
-   3.1.6 Criando o arquivo html 53
-   3.2 Criando uma pequena playlist . 55
-4. Estrutura inicial dos arquivos 56
-5. Criando um arquivo de configuração da aplicação7
-6. Adicionando bootstrap . 59
-7. Criando a classe Video . 61
-8. Criando uma lista simples de vídeos . 62
-9. Criando sub-componentes . . 63
-10. Formatando o template . 65
-11. Repassando valores entre componentes 67
-12. Selecionando um vídeo . 70
-    3.0 Eventos . . . 70
-    3.1 Propagando eventos . . 72
-    3.2 Exibindo os detalhes do vídeo 74
-    3.3 Editando os dados do video selecionado8
-    3.4 Editando o título . . . . 81
-    CONTEÚDO
-    3.5 Criando um novo item . 84
-    3.6 Algumas considerações 85
-    3.3 Criando Componentes6
-    3.4 Componentes Hierárquicos . . . 93
-13. Um pouco de teoria6
-    4.1 Visão Geral 96
-    4.2 Módulo (module) . . 97
-14. Library Module8
-    4.3 Componente (component) . . . 99
-    4.4 Template . 100
-    4.4.1 Interpolation (Uso de {{ }}) . . 101
-    4.4.2 Template Expressions . 101
-    4.5 Property Bind01
-    4.5.1 Laços02
-    4.5.2 Pipes (Operador |) . . . 103
-    4.6 Metadata (annotation)03
-    4.7 Serviço (Service) . . 104
-    4.8 Injeção de dependência04
-    4.8.1 Uso do @Injectable() . . 106
-15. Formulários . . . 108
-    5.1 Criando o projeto inicial . . . . 108
-    5.2 Uso do ngControl . . 114
-    5.3 Exibindo uma mensagem de erro . . 116
-    5.4 Desabilitando o botão de submit do formulário 117
-    5.5 Submit do formulário 118
-    5.6 Controlando a visibilidade do formulário . . . 119
-16. Conexão com o servidor . 122
-    6.1 Criando o projeto . . 122
-    6.2 Uso da classe Http . 123
-    6.3 Utilizando services . 128
-    6.4 Organização do projeto28
-    6.5 Model user 130
-    6.6 Service user 131
-    6.7 Alterando o componente AppComponent . . . 132
-    6.8 Enviando dados . . . 133
-    CONTEÚDO
-17. Routes . 135
-    7.1 Aplicação AngularRoutes . . . 135
-    7.2 Dividindo a aplicação em partes 137
-    7.3 Criando a área onde os componentes serão carregados . 138
-    7.4 Configurando o router38
-    7.5 Criando links para as rotas . . . 139
-    7.6 Repassando parâmetros40
-18. Exemplo Final - Servidor 142
-    8.1 Criando o servidor RESTful . . 142
-    8.2 O banco de dados MongoDB . . 142
-    8.3 Criando o projeto . . 146
-    8.4 Estrutura do projeto 147
-    8.5 Configurando os modelos do MondoDB48
-    8.6 Configurando o servidor Express . . 149
-    8.7 Testando o servidor . 158
-    8.8 Testando a api sem o Angular . 159
-19. Exemplo Final - Cliente . 165
-    9.1 Arquivos iniciais . . 165
-    9.2 Preparando o Template base da aplicação . . . 170
-    9.3 Implementando o roteamento (Router)72
-    9.3.1 Criando componentes . 172
-    9.3.2 Configurando o @RouteConfig74
-    9.3.3 Configurando o menu . 175
-    9.3.4 Configurando o router-outlet 176
-    9.4 Exibindo Posts . . . 176
-    9.5 Login . . . 180
-    9.6 Services . . 183
-    9.6.1 LoginService 183
-    9.6.2 UserService . 184
-    9.6.3 HeadersService85
-    9.7 Conectando no servidor . . . . 186
-    9.8 Posts89
-    9.8.1 PostService . 191
-    9.9 Refatorando a tela inicial . . . . 192
-    9.10 Conclusão . 196
-20. Utilizando Sublime Text . 197
-    CONTEÚDO
-    10.1 Instalação . 197
-    10.2 Adicionando suporte a linguagem TypeScript . 197
-    10.3 Automatizando a build TypeScript . . 199
-21. Publicando a aplicação em um servidor cloud . . 201
-    11.1 Criando a conta na Digital Ocean . . 201
-    11.2 Criando o droplet (servidor) . . 202
-    11.3 Configurando o acesso SSH . . 204
-    11.4 Criando o usuário . . 206
-    11.5 Instalando o git . . . 208
-    11.6 Instalando Node . . 209
-    11.7 Instalando o nginx . 209
-    11.8 Instalando os módulos do node 211
-    11.9 Recompilando os arquivos TypeScript 211
-    11.10 Teste inicial 212
-    11.11 Integração entre nginx e node . 212
-    11.12 Algumas considerações sobre node+nginx . . 216
-    11.13 Domínio . . 216
-    11.14 Conclusão . 218
+<strong>3 - Um pouco de prática </strong>
+<ol>
+  <li>Projeto AngularBase</li>
+  <ol>
+    <li>Configurando o projeto</li>
+    <li>Erros ao instalar o Angular 2</li>
+    <li>Configurando a compilação do TypeScript</li>
+    <li>Criando o primeiro componente Angular 2</li>
+    <li>Criando o bootstrap</li>
+    <li>Criando o arquivo html</li>
+  </ol>
+  <li>Criando uma pequena playlist</li>
+  <ol>
+    <li>Estrutura inicial dos arquivos</li>
+    <li>Criando um arquivo de configuração da aplicação</li>
+    <li>Adicionando bootstrap</li>
+    <li>Criando a classe Video</li>
+    <li>Criando uma lista simples de vídeos</li>
+    <li>Criando sub-componentes</li>
+    <li>Formatando o template</li>
+    <li>Repassando valores entre componentes</li>
+    <li>Selecionando um vídeo</li>
+    <li>Eventos</li>
+    <li>Propagando eventos</li>
+    <li>Exibindo os detalhes do vídeo</li>
+    <li>Editando os dados do video selecionado</li>
+    <li>Editando o título</li>
+    <li>Criando um novo item</li>
+    <li>Algumas considerações</li>
+  </ol>
+  <li>Criando Componentes</li>
+  <li>Componentes Hierárquicos</li>
+</ol>
+
+<strong>4 - Um pouco de teoria</strong>
+<ol>
+  <li>Visão Geral</li>
+  <li>Módulo (module)</li>
+  <ol>
+    <li>Library Module</li>
+  </ol>
+  <li>Componente (component)</li>
+  <li>Template</li>
+  <ol>
+    <li>Interpolation (Uso de {{ }})</li>
+    <li>Template Expressions</li>
+  </ol>
+  <li>Property Bind</li>
+  <ol>
+    <li>Laços</li>
+    <li>Pipes (Operador |)</li>
+  </ol>
+  <li>Metadata (annotation)</li>
+  <li>Serviço (Service)</li>
+  <li>Injeção de dependência</li>
+  <ol>
+    <li>Uso do @Injectable()</li>
+  </ol>
+</ol>
+
+ormulários 8
+5.1 Criando o projeto inicial 108
+5.2 Uso do ngControl . . 114
+5.3 Exibindo uma mensagem de erro . . 116
+5.4 Desabilitando o botão de submit do formulário 117
+5.5 Submit do formulário 118
+5.6 Controlando a visibilidade do formulário 9 16. Conexão com o servidor . 122
+6.1 Criando o projeto . . 122
+6.2 Uso da classe Http . 123
+6.3 Utilizando services . 128
+6.4 Organização do projeto28
+6.5 Model user 130
+6.6 Service user 131
+6.7 Alterando o componente AppComponent 2
+6.8 Enviando dados 3
+CONTEÚDO 17. Routes . 135
+7.1 Aplicação AngularRoutes 5
+7.2 Dividindo a aplicação em partes 137
+7.3 Criando a área onde os componentes serão carregados . 138
+7.4 Configurando o router38
+7.5 Criando links para as rotas 9
+7.6 Repassando parâmetros40 18. Exemplo Final - Servidor 142
+8.1 Criando o servidor RESTful . . 142
+8.2 O banco de dados MongoDB . . 142
+8.3 Criando o projeto . . 146
+8.4 Estrutura do projeto 147
+8.5 Configurando os modelos do MondoDB48
+8.6 Configurando o servidor Express . . 149
+8.7 Testando o servidor . 158
+8.8 Testando a api sem o Angular . 159 19. Exemplo Final - Cliente . 165
+9.1 Arquivos iniciais . . 165
+9.2 Preparando o Template base da aplicação 0
+9.3 Implementando o roteamento (Router)72
+9.Criando componentes . 172
+9.Configurando o @RouteConfig74
+9.3.3 Configurando o menu . 175
+9.3.4 Configurando o router-outlet 176
+9.4 Exibindo Posts 6
+9.5 Login 0
+9.6 Services . . 183
+9.6.1 LoginService 183
+9.6.2 UserService . 184
+9.6.3 HeadersService85
+9.7 Conectando no servidor 186
+9.8 Posts89
+9.8.1 PostService . 191
+9.9 Refatorando a tela inicial 192
+9.10 Conclusão . 196 20. Utilizando Sublime Text . 197
+CONTEÚDO
+10.1 Instalação . 197
+10.2 Adicionando suporte a linguagem TypeScript . 197
+10.3 Automatizando a build TypeScript . . 199 21. Publicando a aplicação em um servidor cloud . . 201
+11.1 Criando a conta na Digital Ocean . . 201
+11.2 Criando o droplet (servidor) . . 202
+11.3 Configurando o acesso SSH . . 204
+11.4 Criando o usuário . . 206
+11.5 Instalando o git 8
+11.6 Instalando Node . . 209
+11.7 Instalando o nginx . 209
+11.8 Instalando os módulos do node 211
+11.9 Recompilando os arquivos TypeScript 211
+11.10 Teste inicial 212
+11.11 Integração entre nginx e node . 212
+11.12 Algumas considerações sobre node+nginx . . 216
+11.13 Domínio . . 216
+11.14 Conclusão . 218
 
 <hr>
 
